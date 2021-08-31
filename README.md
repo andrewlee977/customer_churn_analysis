@@ -1,5 +1,7 @@
 # user_churn_analysis
 
+IBM Sample Dataset found [here](https://www.kaggle.com/blastchar/telco-customer-churn)
+
 The initial EDA in `customer_churn.ipynb` found that `tenure` (Number of months the customer has stayed with the company) and `InternetService` (Customer's internet service provider – DSL, Fiber Optic, or No) were the most important in accurately predicting customer churn. I then proceeded to dig deeper into these two features in Tableau to discover additional insight for the stakeholder (Link to dashboard in `About` section of this repo).
 
 ![Dashboard](/assets/dashboard.png?raw=true "Dashboard")
