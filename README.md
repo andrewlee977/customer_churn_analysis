@@ -1,4 +1,4 @@
-# user_churn_analysis
+# customer_churn_analysis
 
 IBM Sample Dataset found [here](https://www.kaggle.com/blastchar/telco-customer-churn)
 
