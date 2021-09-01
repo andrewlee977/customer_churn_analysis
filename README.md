@@ -16,7 +16,7 @@ Next Step is to import this dataset into Tableau and focus on the top features (
 # Graph Breakdown
 
 ### Avg Tenure by Internet Service & Churn
-The key insight for this visualization is understanding the average tenure of a churned customer based on their Internet Service. For example, if a customer is using Fiber Optic internet service and plans on churning, we can expect their average tenure to be ~20 months. If this is something the stakeholder would want me to dive into, I would look into the policies of these Internet Services in order to find some significance in this average tenure. 
+The key insight for this visualization is understanding the average tenure of a churned customer based on their Internet Service. For example, if a customer is using Fiber Optic internet service and plans on churning, we can expect their average tenure to be ~20 months. If this is something the stakeholder would want me to dive into, I would look into the policies of these Internet Services in order to find some significance in this average tenure. For example, if we observe a decrease in contract quality or quality of service for Fiber Optic internet at or before month 20, we could look into how this might affect customer churn. We've all dealt with internet service providers, it's not a stretch to think a change in contract after the first year could be causing this. Just postulating.
 
 ### Percent Churn by Tenure (0-5 yrs)
 In my analysis, I found that the largest percentage of customer churn happens within the first 5 months. I wanted to dig deeper into when these customers are churning, specifically. The key insight in this chart is that the highest percentage of churn is happening in month 2 (61.99% churn rate). A possible initiative to combat this churn is to implement a customer retention program that kicks in around this time.
@@ -29,3 +29,5 @@ I wanted to add another layer to the previous graph by adding Internet Service. 
 
 ### Pie Charts
 The pie charts, from top to bottom, show the percentage of customers who churn, percentage of customers by Internet Service, percentage of churned customers by internet service, and percentage of retained customers by internet service. I felt this would give a good high-level overview of the customers and how they are segmented based on the important features in question.
+
+## These are just a few of many visualizations that can be done here. When working with a product manager or stakeholder, I would create many different visualizations exploring the most important features in determining the accuracy of the model. From there, I would present my findings, and iterate on certain metrics that the stakeholder may want to look deeper into. 
