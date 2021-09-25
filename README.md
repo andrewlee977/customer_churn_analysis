@@ -4,7 +4,7 @@ IBM Sample Dataset found [here](https://www.kaggle.com/blastchar/telco-customer-
 
 The initial EDA in `customer_churn.ipynb` found that `tenure` (Number of months the customer has stayed with the company) and `InternetService` (Customer's internet service provider – DSL, Fiber Optic, or No) were the most important in accurately predicting customer churn. I then proceeded to dig deeper into these two features in Tableau to discover additional insight for the stakeholder (Link to dashboard in `About` section of this repo).
 
-![Dashboard](/assets/customer_churn_analysis.png?raw=true "Dashboard")
+![Dashboard](/assets/customer_churn_screenshot.png?raw=true "Dashboard")
 
 # More on the EDA Notebook:
 Model Performance ~79% accuracy at the time of this writing. Precision and Recall are low for predicting churn, ~65% and ~51%, respectively. The most important features in predicting user churn are `tenure` and `InternetService` (Found using Permutation Feature Importances technique). Dropping columns that don't contribute to the model (features that contribute less than 1% increase to model performance) improved the accuracy of the model. If I wanted to improve the accuracy score further, I would tune the hyperparameters of Logistic Regression/Random Forest using Randomized Search to find important hyperparameters, then follow it up with brute force Grid Search on specific hyperparameters to optimize further.
